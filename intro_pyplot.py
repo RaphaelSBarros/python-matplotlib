@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-ypoints = np.array([3, 8, 1, 10, 5, 7])
+ypoints = np.array([3, 8, 1, 10])
 
-plt.plot(ypoints, marker="*")
+plt.plot(ypoints, 'o:r') # marker|line|color
 plt.show()
